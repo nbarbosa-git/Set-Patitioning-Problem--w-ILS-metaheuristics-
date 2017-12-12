@@ -19,13 +19,13 @@
 
 
 ////////////////////////Choose path to read and write your instances:///////////////////////////////////////////////////////
-char file_name_read[MAX]="/Users/nicholasrichers/Dropbox/UFRJ/MHOC/Trabalho/SPP-ILS-vfinal-Large/SPP-ILS-vfinal-Large/";    //
-char file_name_write[MAX]="/Users/nicholasrichers/Dropbox/UFRJ/MHOC/Trabalho/SPP-ILS-vfinal-Large/SPP-ILS-vfinal-Large/results/";//
+char file_name_read[MAX]="/Users/nicholasrichers/Dropbox/UFRJ/MHOC/Trabalho/SPP-ILS-vfinal-Large/SPP-ILS-vfinal-Large/";  //
 char file_list[MAX] = "Instances_list.txt";                                                                               //
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 int Panel_Configuration=0;
 char instance_list[MAX];
+char file_name_write[MAX];
 bool cannot_read_file=false;
 bool reset_lottery_bool=false;
 bool reset_instance=false;

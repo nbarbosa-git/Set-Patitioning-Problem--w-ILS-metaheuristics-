@@ -16,8 +16,8 @@ To run the program you need to enter:
 The field where the addresses are arranged in the original and unmodified program is copied below and is in line 20;
 
 
-////////////////////////Choose path to read and write your instances:////////////////////////////////////////////////////////////////////////////////////////////
-char file_name_read[MAX]="/Users/nicholasrichers/Dropbox/UFRJ/MHOC/Trabalho/SPP-ILS-vfinal-Large/SPP-ILS-vfinal-Large/";  //
-char file_list[MAX] = "Instances_list.txt";                                                                                                                                                   //
-//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+Choose path to read and write your instances:
+char file_name_read[MAX]="/choose/your/path/";
+char file_list[MAX] = "Instances_list.txt";
+
 
